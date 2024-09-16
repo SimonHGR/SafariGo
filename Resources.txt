@@ -4,6 +4,7 @@ Resources
 Join me on LinkedIn: https://www.linkedin.com/in/simonhgroberts/
 
 Subscribe to my YouTube channel: https://www.youtube.com/@DancingCloudServices
+ - Install VSCode and Go: https://youtu.be/Cu700dHPow0
 
 Email me at: simon@dancingcloudservices.com
 
