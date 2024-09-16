@@ -1,0 +1,15 @@
+Resources
+---------
+
+Join me on LinkedIn: https://www.linkedin.com/in/simonhgroberts/
+
+Subscribe to my YouTube channel: https://www.youtube.com/@DancingCloudServices
+
+Email me at: simon@dancingcloudservices.com
+
+Primary Go site:         https://go.dev
+  Go User Manual:        https://go.dev/doc
+  Standard Library Docs: https://pkg.go.dev/std
+
+And, if you also write in Java, lots of pre-recorded and live classes on the O'Reilly
+platform, just search for my name!
