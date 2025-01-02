@@ -5,3 +5,5 @@ use ./utilsmodule
 use ./main/dataconversion
 use ./main/many
 use ./main/structstuff
+use ./main/interfaces
+use ./main/panicstuff
