@@ -9,7 +9,7 @@ func incVal(arr [4]int) {
 
 // pointer (perhaps as structure member) is ESSENTIAL if you want to change
 // the caller's data!!! (in EVERY situation)
-func incValPtr(arr *[4]int) { 
+func incValPtr(arr *[4]int) {
 	// assignment operators, and ++ / -- do NOT have expression value, only side effect
 	arr[0] += 10
 }
@@ -33,4 +33,19 @@ func main() {
 
 	// moreNums := new([5]int)
 	// moreNums = nums // array assignment REQUIRES identical sizes
+
+	slNums := nums[0:3] // first index, "fence" index
+	fmt.Printf("slNums is %v, type is %T, len is %d, cap is %d\n",
+		slNums, slNums, len(slNums), cap(slNums))
+	fmt.Printf("nums is %v, of type %T\n", nums, nums)
+	nums[0] = -1
+	fmt.Printf("slNums is %v, type is %T, len is %d, cap is %d\n",
+		slNums, slNums, len(slNums), cap(slNums))
+	fmt.Printf("nums is %v, of type %T\n", nums, nums)
+
+	slNums = append(slNums, 100, 101, 102)
+	fmt.Printf("slNums is %v, type is %T, len is %d, cap is %d\n",
+		slNums, slNums, len(slNums), cap(slNums))
+	fmt.Printf("nums is %v, of type %T\n", nums, nums)
+
 }

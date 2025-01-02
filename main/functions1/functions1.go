@@ -22,6 +22,22 @@ func addPositives(a, b int) (sum int, ok bool) {
 	}
 }
 
+func addMany(vals ...int) (sum int) {
+	// vals is a SLICE
+	// we could sum all of thse by hand
+	// for can iterate many things, including slices
+	// for idx ...
+	// for index, value := range vals {
+	// 	fmt.Println("index:", index, "has value", value)
+	// 	sum += value
+	// }
+	for _, value := range vals {
+		fmt.Println("value", value)
+		sum += value
+	}
+	return sum
+}
+
 func main() {
 	fmt.Println("xxx")
 	fmt.Println("2 + 3 is", add(2, 3))
@@ -72,4 +88,6 @@ func main() {
 
 	addOne := maker(add, 1)
 	fmt.Println("addOne to 99 is", addOne(99))
+
+	fmt.Println("sum of 1..10 is", addMany(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
 }
