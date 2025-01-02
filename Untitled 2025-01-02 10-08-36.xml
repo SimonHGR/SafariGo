@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile majorVersion="1" minorVersion="5" product="ATEM Mini Pro ISO">
+    <MediaPool>
+        <Stills>
+            <Still index="0" name="Capture 1" path="ATEM Media Pool/Capture 1.png"/>
+        </Stills>
+    </MediaPool>
+</Profile>
