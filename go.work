@@ -7,4 +7,6 @@ use ./many
 use ./many2
 use ./functs
 use ./struct
+use ./panics
+use ./channels
 
