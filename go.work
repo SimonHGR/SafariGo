@@ -4,3 +4,7 @@ use ./hello
 use ./support
 use ./langstruct
 use ./many
+use ./many2
+use ./functs
+use ./struct
+
