@@ -1,0 +1,25 @@
+Download Go:
+  https://go.dev/dl/
+
+Download VS Code:
+  https://code.visualstudio.com/download
+
+My YouTube channel guide to installing Go & VS Code
+  https://youtu.be/Cu700dHPow0 
+
+Download GoLand (not free):
+  https://www.jetbrains.com/go/
+
+Standard library docs:
+  https://pkg.go.dev/std
+  
+Contact Simon (questions, observations, discussions, requests for
+  custom training--onsite or web-based--are all welcome,
+  but I can't promise a prompt response to general discussions!)
+email:
+  simon@dancingcloudservices.com
+LinkedIn:
+  https://www.linkedin.com/in/simonhgroberts/
+YouTube Channel:
+  https://www.youtube.com/@DancingCloudServices
+
